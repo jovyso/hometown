@@ -1,0 +1,92 @@
+#body {
+  display: flex;
+  text-align: center;
+  text-justify: distribute-all-lines;
+  font-family: "Bebas Neue", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:small;
+  background-color: rgb(207, 208, 199);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  
+
+}
+
+  #header {
+  color: #e8f1e9;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  line-height: 3;
+  text-align: center;
+  vertical-align:middle;
+  text-shadow: 2px 2px;
+  background-color: #e3d5ca;
+  background-image: url("image/background.jpg");
+  background-size: contain;
+  block-size: 200px;
+  text-align: center;
+
+  }
+
+  h2 {
+    
+    background: linear-gradient(#7a9d6f, #9aa7d6);
+    color: #efebef ;
+    display: block;
+    text-align: center;
+
+  }
+
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+    height: auto;
+    position: relative;
+  
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+   }
+  
+  .container:hover .overlay {
+    opacity: 1;
+
+  }
+
+
+.text {
+  font-size: x-large;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  color: #e2d0ac;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  }
+
+h4 {
+  display: block;
+  text-align: center;
+  color: #7a9d6f;
+}
